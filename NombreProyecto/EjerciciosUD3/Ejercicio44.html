@@ -12,17 +12,95 @@
     <link rel="icon" href="./NombreProyecto/assets/icons/pandaicon.png">
 </head>
 <body style="background-color: dodgerblue;">
-    <img src="../assets/img/Logo_Tuenti_nuevo.png" alt="Logo Tuenti" width="250px" style="margin: 0 px 50%; margin-left: 36%;">
-    <table border="1" style="background-color: white; margin: 0 auto; border-collapse: collapse; border-style: solid;">
+    <img src="../assets/img/Logo_Tuenti_nuevo.png" alt="Logo Tuenti" width="250px" style="margin: 0 px 50%; margin-left: 40%;">
+    <table style="background-color: white; margin: 5 auto; width: 100%; height: 850px; border-radius: 15px;">
+        <tr >
+            <td colspan="2" style="padding: 30px;">
+            <b style="font-size: xx-large;">Únete a Tuenti</b> <span style="color: gray;">Todos los campos son obligatorios</span>
+            </td>
+            <td style="padding: 30px;">
+                <label for="">
+                    <select name="" id="" style="color: dodgerblue; border: 0px;">
+                        <option value="">Español</option>
+                        <option value="">Inglés</option>
+                    </select>
+                </label>
+            </td>
+        </tr>
         <tr>
-            <td>
+            <td style="text-align: right;">
                 Nombre
             </td>
             <td>
-                <label for="">
-                    <input type="text" name="" id="">
-                    <input type="text" name="" id="">
+                <label for="Nombre">
+                    <input type="text" name="Nombre" id="" placeholder="Nombre" size="20" style="height: 30px;">
+                    <input type="text" name="Apellido" id="" placeholder="Apellidos" size="20" style="height: 30px;">
                 </label>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: right;">
+                Email:
+            </td>
+            <td >
+                <label for="Email">
+                    <input type="text" name="Email" id="" size="46" style="height: 30px;">
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: right;">
+                Sexo
+            </td>
+            <td>
+                <label for="Sexo">
+                    <input type="radio" name="Sexo" id="1"> Hombre
+                <input type="radio" name="Sexo" id="2"> Mujer
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: right;">
+                Fecha de nacimiento
+            </td>
+            <td>
+                <input type="date" name="" id="" style="height: 30px;"> <br>
+                <span style="color: gray; font-size: small;">La edad mínima permitida es 14.</span>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: right;">
+                Contraseña
+            </td>
+            <td>
+                <label for="Password">
+                    <input type="password" name="Password" id="" size="46" style="height: 30px;">
+                </label>
+                <br><span style="font-size: 0.9em; color: dodgerblue;">Consejos para elegir una contraseña</span>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: right;">
+                Número de móvil
+            </td>
+            <td>
+                <label for="Tlf">
+                    <input type="text" name="Prefijo" id="" size="2" placeholder="+34 E" style="height: 30px;">
+                    <input type="text" name="" id="" style="height: 30px;">
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <label for="Términos">
+                    <input type="checkbox" name="Términos" id="">
+                    Aceptas las <span style="color: dodgerblue;">Condiciones de uso</span> y la <span style="color: dodgerblue;">Política de privacidad</span> de Tuenti y que Tuenti te envie comunicaciones, incluso por vía electrónica. Lee un resumen en el <span style="color: dodgerblue;">Decálogo de las Condiciones de uso</span>
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3" style="text-align: right; padding-right: 30px;">
+                <input type="submit" value="¡Disfruta de Tuenti!" style="color: white; background-color: dodgerblue; width: 10%; height: 40px; border-radius: 6px; font-weight: bold; border: 0px;">
             </td>
         </tr>
     </table>
